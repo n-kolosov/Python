@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 try:
     s = input("Введите данные: ")
     print(s)

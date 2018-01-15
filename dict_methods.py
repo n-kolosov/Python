@@ -1,0 +1,13 @@
+d = {"a": 1, "b": 2}
+print(d.values())
+print(d.items())
+print("a" in d)
+print("c" in d)
+print(d.get("a"), d.get("b"), d.get("с"), d.get("с", 800))
+d.setdefault("a"), d.setdefault("b"), d.setdefault("c"), d.setdefault("d", 35)
+print(d)
+print(d.pop("d"), d.pop("e", 12))
+print(d)
+print(d.popitem(), d)
+d.update(c=3, d=4)
+print(d)

@@ -1,0 +1,10 @@
+from fractions import Fraction
+x = Fraction(4, 5)
+y = Fraction(1, 2)
+z = Fraction(0.5)
+m = Fraction("0.5")
+l = Fraction(9,5) - Fraction(2,3)
+k = Fraction(0.3) - Fraction(0.1) - Fraction(0.1) - Fraction(0.1)
+print(x, y, z, m)
+print(l)
+print(float(k))
